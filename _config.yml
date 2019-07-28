@@ -56,35 +56,35 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
-  -
-    href: /zsxq.html
-    label: 星球
-    target: _self
+  # -
+  #   href: /zsxq.html
+  #   label: 星球
+  #   target: _self
 
-  -
-    href: /gitchat.html
-    label: Chat
-    target: _self
+  # -
+  #   href: /gitchat.html
+  #   label: Chat
+  #   target: _self
 
-  -
-    href: /geektime.html
-    label: 极客
-    target: _blank
+  # -
+  #   href: /geektime.html
+  #   label: 极客
+  #   target: _blank
 
-  -
-    href: /life.html
-    label: 故事
-    target: _self
+  # -
+  #   href: /life.html
+  #   label: 故事
+  #   target: _self
 
-  -
-    href: /arch.html
-    label: 架构
-    target: _self
+  # -
+  #   href: /arch.html
+  #   label: 架构
+  #   target: _self
 
-  -
-    href: /link.html
-    label: 友链
-    target: _self
+  # -
+  #   href: /link.html
+  #   label: 友链
+  #   target: _self
 
 
 
@@ -125,68 +125,68 @@ navs:
     label: Archives
     target: _self
 
-  -
-    href: /about.html
-    label: About
-    target: _self
+  # -
+  #   href: /about.html
+  #   label: About
+  #   target: _self
 
 
 # labels. my blog key words
-labels:
+# labels:
 
-  -
-    href: /payment.html
-    label: 支付     
-    target: _self
+#   -
+#     href: /payment.html
+#     label: 支付     
+#     target: _self
 
-  -
-    href: /fastdfs.html
-    label: FastDFS
-    target: _blank
+#   -
+#     href: /fastdfs.html
+#     label: FastDFS
+#     target: _blank
 
-  -
-    href: /mongodb.html
-    label: MongoDB
-    target: _blank
+#   -
+#     href: /mongodb.html
+#     label: MongoDB
+#     target: _blank
 
-  -
-    href: /docker.html
-    label: Docker
-    target: _blank
+#   -
+#     href: /docker.html
+#     label: Docker
+#     target: _blank
 
-  -
-    href: /open-source.html
-    label: Code  
-    target: _blank
+#   -
+#     href: /open-source.html
+#     label: Code  
+#     target: _blank
 
-  -
-    href: /it.html
-    label: IT 
-    target: _blank
+#   -
+#     href: /it.html
+#     label: IT 
+#     target: _blank
 
-  -
-    href: /python.html
-    label: Python  
-    target: _blank
+#   -
+#     href: /python.html
+#     label: Python  
+#     target: _blank
 
 
 # selected articles
-classes:
+# classes:
 
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+#   -
+#     href: /life.html
+#     name: 我的故事
+#     describe: 生活就是故事，故事就是生活
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+#   -
+#     href: /arch.html
+#     name: 架构师之路
+#     describe: 一个架构师的自我修养
 
-  -
-    href: /java.html
-    name: Java 系列文章
-    describe: Java 之根基，Java 程序员必学
+#   -
+#     href: /java.html
+#     name: Java 系列文章
+#     describe: Java 之根基，Java 程序员必学
 
 
 # ---------------- #
@@ -220,7 +220,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: ityouknow
+    username: jiangyuan2899
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: ityouknow

@@ -1,0 +1,36 @@
+### vue构建项目
+1.安装node
+    上node官网下载最新版本的，并配置环境变量，Linux系统找镜像地址即可
+    
+    环境变量以安装路径为准
+
+    版本会变以官网为准
+    ```
+    wget https://nodejs.org/dist/v8.11.4/node-v8.11.4-linux-x64.tar.xz #在根目录下 下载nodejs安装包
+    tar xvf node-v8.11.4-linux-x64.tar.xz #解压
+    mv node-v8.11.4-linux-x64 node-v8.11.4 #改短名
+    ```
+    检查是否安装成功
+
+    >node -v
+
+2.安装npm
+    
+    npm install vue
+
+3.安装vue脚手架
+
+    npm install -g @vue/cli
+     OR
+    yarn global add @vue/cli
+    
+    
+    
+4.查看vue版本
+    
+    vue --version    
+    
+    
+5.这需要先额外安装一个全局的扩展
+     
+    npm install -g @vue/cli-service-global

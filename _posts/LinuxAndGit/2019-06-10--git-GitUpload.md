@@ -16,14 +16,14 @@ tags: [other]
 第三步：
 创建仓库名
 
-第四步：
+第四步：<br/>
 1.在命令行中，输入“git init”，使Test文件夹加入git管理；<br/>
 2.输入“git add .”（不要漏了“.”），将Test文件夹全部内容添加到git。<br/>
 3.输入“git commit -m "first commit"”（“git commit -m "提交信息"”）。<br/>
 4.输入“git remote add origin https://github.com/username/Test.git”（git remote add origin 你自己的https地址），连接你的guthub仓库。<br/>
 5.输入“git push -u origin master”，上传项目到Github。这里会要求输入Github的账号密码，按要求输入就可以。<br/>
 
-在5push时候报错截图
+在第五步push时候报错截图
 ```
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing

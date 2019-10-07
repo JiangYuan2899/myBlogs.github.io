@@ -1,6 +1,6 @@
 ---
 layout: post
-title: markdown 使用总结
+title: 日常专业英语词汇总结
 category: other
 tags: [other]
 ---

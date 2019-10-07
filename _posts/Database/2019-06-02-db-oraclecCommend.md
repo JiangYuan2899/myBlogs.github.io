@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 将本地新项目上传到GitHub步骤
+title: 将一个表字段复制到另一个表中
 category: other
 tags: [other]
 ---
@@ -25,5 +25,7 @@ end;
 
 ````  
 
-如果两列数据重复的话，可以通过count方法，找出计算条数大于1的，那么表示此条数据重复：>sql: select district() from products having count()>1;
-备注：实际上两列重复的话，都是针对某个字段比较有意。>sql:select name,count() from usertable group by name having count()>1;
+如果两列数据重复的话，可以通过count方法，找出计算条数大于1的，那么表示此条数据重复：<br/>
+>sql: select district() from products having count()>1;
+备注：实际上两列重复的话，都是针对某个字段比较有意:<br/>
+>sql:select name,count() from usertable group by name having count()>1;

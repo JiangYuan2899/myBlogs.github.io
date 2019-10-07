@@ -5,8 +5,9 @@ category: other
 tags: [other]
 ---
 
-## 将一个表字段复制到另一个表中
-````  
+将一个表字段复制到另一个表中
+
+```  
 -- Created on 2016/10/12 by jiangyuan
 declare 
 -- 将一个表字段复制到另一个表中 
@@ -23,7 +24,7 @@ end if;   
 end loop;
 end;
 
-````  
+```  
 
 如果两列数据重复的话，可以通过count方法，找出计算条数大于1的，那么表示此条数据重复：<br/>
 >sql: select district() from products having count()>1;

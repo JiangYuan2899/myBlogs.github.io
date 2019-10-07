@@ -1,3 +1,10 @@
+---
+layout: post
+title: vue构建项目
+category: other
+tags: [other]
+---
+
 ### vue构建项目
 1.安装node
     上node官网下载最新版本的，并配置环境变量，Linux系统找镜像地址即可

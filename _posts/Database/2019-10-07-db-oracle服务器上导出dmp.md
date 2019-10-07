@@ -1,6 +1,6 @@
 ---
 layout: post
-title: oracle更改用户名方法
+title: oracle服务器上导出dmp
 category: other
 tags: [other]
 ---

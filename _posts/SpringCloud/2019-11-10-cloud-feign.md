@@ -14,6 +14,7 @@ feign:
 
     client.config.服务名（feignCilent中name对应自己定义）.loggerLevel: full
 创建feign接口源码如下
+
 ```
 package com.isc.claimplus.feign.foreignsystem;
 
@@ -36,6 +37,7 @@ public interface ElectronicSignFeign {
     String callTechPlatform(@RequestBody String param);
 }
 ```
+
 配置请求格式参数：consumes
 
 配置接收格式参数：product
